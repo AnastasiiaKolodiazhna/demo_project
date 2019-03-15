@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Marmelad|Pacifico');
+
+:root {
+    --main-font-color: black;
+    --first-font-color: #FFF5EE;
+    --second-font-color: #DC3545;
+    --main-background-color: #C8C9CA;
+}
+
+html {
+    background-color: black;
+}
+
+body {
+    font-family: 'Marmelad', sans-serif;
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+h1,
+h2 {
+    text-align: center;
+    padding-top: 2em;
+}
+
+h2 {
+    color: var(--second-font-color);
+    text-shadow: 2px 2px 3px #32383E;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: var(--first-font-color) !important;
+}
+
+.navbar-light {
+    background-color: black !important;
+
+}
+
+a {
+    color: var(--first-font-color) !important;
+}
+
+.active {
+    background-color: var(--second-font-color);
+    border-radius: 10px;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: var(--second-font-color);
+}
+
+.pBanner {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    color: var(--first-font-color);
+}
+
+.card {
+    background-color: var(--main-background-color);
+    border: solid 5px var(--main-font-color);
+}
+
+label {
+    color: var(--first-font-color);
+    text-align: left;
+}
+
+footer {
+    padding-top: 2em;
+    text-align: center;
+}
+
+button  {
+    display: flex;
+    justify-content: center;
+}
